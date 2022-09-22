@@ -1,0 +1,32 @@
+Resultados)
+
+500X500:
+
+Inicializacao:  0.000029 s
+Processamento:  0.860822 s
+Finalizacao:    0.001038 s
+
+1000X1000:
+
+Inicializacao:  0.000027 s
+Processamento:  6.874434 s
+Finalizacao:    0.003088 s
+
+2000X2000:
+
+Inicializacao:  0.000027 s
+Processamento:  55.524165 s
+Finalizacao:    0.012416 s
+
+Ganho de desempenho teorico)
+
+T sequencial/T concorrente
+
+500X500: 0,861889 / (0.000029 + (0.860822)/2 + 0.001038) = 1,997527
+ganho teorico de 99,752%
+
+1000x1000: 6,877549 / (0.000027 + (6.874434)/2 + 0.003088) = 1,9936889
+ganho teorico de 99,368%
+
+2000X2000: 55.536608 / (0.000027 + (55.524165)/2 + 0.012416) = 1,999551
+ganho teorico de 99,999%
