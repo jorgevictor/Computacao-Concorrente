@@ -1,0 +1,11 @@
+1.2) Sim. Sim, o BYE so foi impresso depois dos dois HELLO.
+
+1.3) Apenas um HELLO vai ser impresso e o programa nao termina, pois x nunca chega a ser igual a 2.
+
+2.2) Sim. Sim, por conta do uso das variaveis de condicao e do broadcast.
+
+3.2) Sim. Sim.
+
+3.3) Nao, pois a thread B pode ficar presa no wait, fazendo com que o programa nao termine.
+
+3.4) Sim. Sim, nao chegou a gerar resultados incorretos e nem dar deadlock no codigo.
